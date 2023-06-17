@@ -24,7 +24,7 @@ export function Header() {
       </div>
 
       <ul
-        className={`absolute right-0 z-[-1] mr-4 w-32
+        className={`absolute right-0 z-[0] mr-4 w-32
           rounded-b-lg bg-white px-4 pb-4 pt-4 md:static
         md:z-auto md:mr-0 md:flex md:w-auto md:translate-y-1
         md:items-center  md:bg-white md:py-0 md:pl-0 md:opacity-100

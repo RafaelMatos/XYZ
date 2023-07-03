@@ -1,5 +1,5 @@
 
-# Agencia XYZ 🏬
+# Agência XYZ 🏬
 Projeto realizado usando o framework Next.js, baseando pelo projeto HTMl,CSS e Javascript do curso do Dev em Dobro e adaptando para as ferramentas Next.js e Tailwind CSS.
 
 <img src='./src/screenshots/tela.gif' alt='git da tela da aplicação Ignite Shop'>
@@ -12,8 +12,9 @@ Projeto realizado usando o framework Next.js, baseando pelo projeto HTMl,CSS e J
   - Lucide React
   
 
-## Ultima atualização 🔃
-- Componente Header criado e adaptado responsividade para mobile;
+## Ultimas atualizações 🔃
+- Componente Hero criado
+- Animação bounce-opacited criada no tailwind.config
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).

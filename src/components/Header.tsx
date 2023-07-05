@@ -32,7 +32,7 @@ export function Header() {
         transition-all duration-500 ease-in-out`}
       >
         <li className=" items-center justify-center rounded-full px-3 py-1 transition hover:bg-orange-300 hover:font-semibold hover:text-gray-50  md:my-0">
-          <Link href={'/'}>About</Link>
+          <Link href={'/#about'}>About</Link>
         </li>
         <li className="items-center justify-center rounded-full px-3 py-1  transition hover:bg-orange-300 hover:font-semibold  hover:text-gray-50">
           <Link href={'/'}>Services</Link>

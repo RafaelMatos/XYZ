@@ -6,7 +6,7 @@ import { useState } from 'react'
 export function Header() {
   const [navBar, setNavBar] = useState(false)
   return (
-    <header className="min-h-[75] bg-white p-5 text-gray-950  shadow md:flex md:items-center md:justify-between">
+    <header className="min-h-[75] bg-white p-5  text-gray-950  md:flex md:items-center md:justify-between">
       <div className="flex items-center justify-between">
         <Link href={'/'}>
           <h1 className="text-2xl font-bold transition-colors hover:text-orange-300">

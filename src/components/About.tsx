@@ -17,7 +17,7 @@ export function About() {
           bg-cover  bg-center bg-no-repeat md:h-[100%]`}
         />
       </div>
-      <div className=" flex grid-flow-col grid-cols-2 flex-col md:grid md:grid-flow-row md:grid-cols-2">
+      <div className=" flex grid-flow-col grid-cols-2 flex-col-reverse md:grid md:grid-flow-row md:grid-cols-2">
         {/* Left Image */}
         <div
           className={`h-[30rem]

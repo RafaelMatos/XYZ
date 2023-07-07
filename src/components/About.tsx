@@ -2,7 +2,7 @@ import { ItemAbout } from './aboutSection/ItemAbout'
 
 export function About() {
   return (
-    <div className="m-auto max-w-[1920px] bg-white text-gray-900" id="about">
+    <div className="bg-white text-gray-900" id="about">
       <div className=" flex grid-flow-col grid-cols-2 flex-col md:grid md:grid-flow-row md:grid-cols-2">
         {/* Left Item */}
         <ItemAbout

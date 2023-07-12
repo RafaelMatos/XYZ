@@ -32,16 +32,16 @@ export function Header() {
         transition-all duration-500 ease-in-out`}
       >
         <li className=" items-center justify-center rounded-full px-3 py-1 transition hover:bg-orange-300 hover:font-semibold hover:text-gray-50  md:my-0">
-          <Link href={'/#about'}>About</Link>
+          <Link href={'#about'}>About</Link>
         </li>
         <li className="items-center justify-center rounded-full px-3 py-1  transition hover:bg-orange-300 hover:font-semibold  hover:text-gray-50">
-          <Link href={'/'}>Services</Link>
+          <Link href={'#services'}>Services</Link>
         </li>
         <li className="items-center justify-center rounded-full px-3 py-1  transition hover:bg-orange-300  hover:font-semibold hover:text-gray-50">
-          <Link href={'/'}>Projects</Link>
+          <Link href={'#projects'}>Projects</Link>
         </li>
         <li className="items-center justify-center rounded-full px-3 py-1 transition  hover:bg-orange-300 hover:font-semibold hover:text-gray-50">
-          <Link href={'/'}>Contact</Link>
+          <Link href={'#contact'}>Contact</Link>
         </li>
       </ul>
     </header>

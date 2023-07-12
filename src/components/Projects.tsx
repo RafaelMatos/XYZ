@@ -7,7 +7,7 @@ import plantsImg from '../../public/images/plants3.jpg'
 export function Projects() {
   return (
     <div
-      id="project"
+      id="projects"
       className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4"
     >
       <Project text="Tomatoes" url={tomatosImg.src} />

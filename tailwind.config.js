@@ -47,6 +47,7 @@ module.exports = {
       animation: {
         'waving-hand': 'wave 2s linear infinite',
         'bounce-opacited': 'bounceOpacited 2s infinite',
+        'spin-slow': 'spin 1000s linear infinite',
       },
     },
   },

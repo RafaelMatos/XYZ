@@ -15,7 +15,7 @@ export function Service({ name, text, url }: ServiceProps) {
       <Image
         src={url}
         alt="bolinha colorida"
-        className="mx-auto mb-7 self-start"
+        className="mx-auto mb-7 animate-spin-slow self-start"
         width={200}
         height={200}
       />

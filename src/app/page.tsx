@@ -7,7 +7,7 @@ import { Services } from '@/components/Services'
 
 export default function Home() {
   return (
-    <div className="m-auto h-screen max-w-[1920px] bg-zinc-900">
+    <div className="max-w-[1920px m-auto h-screen">
       <Header />
       <Hero />
       <About />

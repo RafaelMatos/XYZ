@@ -2,7 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+
+html {
+  scroll-behavior: smooth;
+}
+:target {
+  scroll-margin-top: .8em;
+}
+
 body{
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+  }
+  
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background:#cecece ;
+    border-radius: 5px;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:#afafaf;
+    border-radius: 14px;
+    opacity: 0.5;
+  }

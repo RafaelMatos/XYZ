@@ -9,7 +9,7 @@ interface ServiceProps {
 export function Service({ name, text, url }: ServiceProps) {
   return (
     <div
-      className="items-center justify-center px-[20px] py-[70px] odd:text-pink-500
+      className="items-center justify-center px-[20px] py-[70px] odd:bg-gray-900 odd:text-pink-500
      even:bg-blue-300 even:text-blue-900"
     >
       <Image
